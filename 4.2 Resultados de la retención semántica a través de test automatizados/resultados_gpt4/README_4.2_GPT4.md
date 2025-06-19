@@ -23,3 +23,9 @@ Las gráficas generadas a partir de los resultados se encuentran en esta carpeta
 ## ✍️ Autor
 
 Javier González Pérez · Trabajo Fin de Grado - UPM
+
+---
+
+### Licencia
+
+Este proyecto está licenciado bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
