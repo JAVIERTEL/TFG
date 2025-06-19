@@ -1,6 +1,6 @@
 # 3.2 Evaluación de métricas automáticas
 
-Este módulo implementa un sistema para evaluar cuantitativamente la fidelidad de los textos generados por modelos LLM, comparando sus resúmenes y expansiones frente al texto original. Se aplican métricas automáticas ampliamente utilizadas en NLP como **ROUGE-1**, **BERTScore** y **TF-IDF**, organizando los resultados en un archivo Excel estructurado por hojas.
+Este módulo implementa un sistema para evaluar cuantitativamente la fidelidad de los textos generados por modelos LLM, comparando sus resúmenes y expansiones frente al texto original. Se aplican métricas automáticas ampliamente utilizadas en NLP como **ROUGE-1** y **BERTScore**, organizando los resultados en un archivo Excel estructurado por hojas.
 
 ## 📂 Archivos incluidos
 
