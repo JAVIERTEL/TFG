@@ -1,4 +1,4 @@
-# TFG – Evaluación de la fidelidad semántica en LLMs mediante bucles de resumen y expansión
+# TFG – IMPLEMENTACIÓN DE UN SISTEMA DE EVALUACIÓN DE CAPACIDADES DE GRANDES MODELOS DE LENGUAJE A TRAVÉS DE BUCLES DE RESUMEN Y EXTENSIÓN DE TEXTOS
 
 Este repositorio contiene el código fuente y la documentación asociada al Trabajo de Fin de Grado titulado **“Implementación de un sistema de evaluación de capacidades de Grandes Modelos de Lenguaje a través de bucles de resumen y extensión de textos”**.  
 El proyecto analiza cómo la información original se degrada o se conserva al someterse a procesos iterativos de compresión y expansión, utilizando modelos como GPT-4 Mini y Gemini 1.5 Flash.  
