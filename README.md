@@ -16,7 +16,7 @@ Contiene scripts para ejecutar iteraciones de resumen y expansión sobre los tex
 ---
 
 ### `3.2 Implementación del sistema de evaluación automática`
-Incluye el código encargado de evaluar los textos generados utilizando métricas ROUGE, BERTScore y TF-IDF, almacenando los resultados en Excel.
+Incluye el código encargado de evaluar los textos generados utilizando métricas ROUGE y BERTScore, almacenando los resultados en Excel.
 
 📁 Ver ficheros asociados en Google Drive:  
 [📂 Excel de resultados 3.2](https://drive.google.com/drive/folders/10WGDmhASPoI1lv_OGez5CkUPlyEd-4TA)
