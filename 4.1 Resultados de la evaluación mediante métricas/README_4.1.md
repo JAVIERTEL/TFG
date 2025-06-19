@@ -15,12 +15,12 @@ Este módulo forma parte del apartado **4.1 Resultados de la evaluación mediant
 
 Los datos deben estar previamente generados en formato Excel a partir de los experimentos con los modelos. En este caso, se incluyen:
 
-- [`output_gpt4-mini_1000_incremental.xlsx`](https://drive.google.com/drive/folders/1zzASjMhB4kRCQNj8nDZHpPyGEH7oQcQu): Métricas de evaluación del modelo GPT-4 Mini.
+- [`textos_gpt4_stats.xlsx`](https://drive.google.com/drive/folders/1zzASjMhB4kRCQNj8nDZHpPyGEH7oQcQu): Métricas de evaluación del modelo GPT-4 Mini.
 - [`textos_gemini_stats.xlsx`](https://drive.google.com/drive/folders/1zzASjMhB4kRCQNj8nDZHpPyGEH7oQcQu): Métricas de evaluación del modelo Gemini 1.5 Flash.
 
 ## 📈 Salida
 
-Las gráficas generadas se guardan automáticamente en la carpeta `graficas_finales/` e incluyen:
+Las gráficas generadas se guardan automáticamente en la carpeta [`graficas_finales/`](https://drive.google.com/drive/folders/1zzASjMhB4kRCQNj8nDZHpPyGEH7oQcQu) e incluyen:
 
 - Evolución de precision, recall y F1 a lo largo de iteraciones.
 - Comparativa entre modelos para iteraciones clave (1, 5, 10).
