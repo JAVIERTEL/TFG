@@ -12,13 +12,8 @@ Este directorio forma parte del sistema desarrollado para evaluar la retención 
 
 Los ficheros de entrada y salida se encuentran en el siguiente enlace de Google Drive:
 
-🔗 [Excel y JSONL – Resultados GPT-4](https://drive.google.com/drive/folders/1bJIm1KqMzbc7emJR3zV-Ix6m8g4Ef4aQ)
+🔗 [Excel y Gráfica – Resultados GPT-4](https://drive.google.com/drive/folders/1bJIm1KqMzbc7emJR3zV-Ix6m8g4Ef4aQ)
 
-## 📈 Visualizaciones
-
-Las gráficas generadas a partir de los resultados se encuentran en esta carpeta:
-
-📁 [Gráficas finales](https://drive.google.com/drive/folders/1zzASjMhB4kRCQNj8nDZHpPyGEH7oQcQu)
 
 ## ✍️ Autor
 
