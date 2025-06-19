@@ -15,8 +15,8 @@ Este módulo forma parte del apartado **4.1 Resultados de la evaluación mediant
 
 Los datos deben estar previamente generados en formato Excel a partir de los experimentos con los modelos. En este caso, se incluyen:
 
-- [`textos_gpt4_stats.xlsx`](https://drive.google.com/drive/folders/1zzASjMhB4kRCQNj8nDZHpPyGEH7oQcQu): Métricas de evaluación del modelo GPT-4 Mini.
-- [`textos_gemini_stats.xlsx`](https://drive.google.com/drive/folders/1zzASjMhB4kRCQNj8nDZHpPyGEH7oQcQu): Métricas de evaluación del modelo Gemini 1.5 Flash.
+- [`textos_gpt4_stats.xlsx`](https://drive.google.com/drive/folders/10WGDmhASPoI1lv_OGez5CkUPlyEd-4TA): Métricas de evaluación del modelo GPT-4 Mini.
+- [`textos_gemini_stats.xlsx`](https://drive.google.com/drive/folders/10WGDmhASPoI1lv_OGez5CkUPlyEd-4TA): Métricas de evaluación del modelo Gemini 1.5 Flash.
 
 ## 📈 Salida
 
