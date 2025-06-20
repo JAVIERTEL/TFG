@@ -10,16 +10,31 @@ Evaluar la capacidad de comprensión de **GPT-4 Mini** sobre versiones modificad
 
 ---
 
-## 📂 Estructura de archivos
-
 ### Scripts incluidos
 
-- `generación_preguntas_test_gpt4.py`: genera preguntas de opción múltiple a partir de textos usando GPT-4 Mini mediante API.
-- `json_output_to_excel_gpt4.py`: transforma las respuestas generadas en formato JSONL a un archivo Excel estructurado.
-- `benchmark_input_gpt4.py`: genera el archivo JSONL con combinaciones de preguntas y versiones del texto para evaluación.
-- `respuestas_to_excel_gpt4.py`: transforma las respuestas del modelo a formato Excel para su análisis.
-- `representacion_resultados_gpt-4.py`: representa gráficamente la precisión del modelo en cada nivel de resumen y expansión.
-- `resultados_gpt-4.py`: calcula métricas globales de rendimiento del modelo a partir de las respuestas generadas.
+- `generación_preguntas_test_gpt4.py`: genera preguntas tipo test a partir de un texto dado utilizando GPT-4 Mini. Crea un archivo `batch_input_test_questions_gpt4.jsonl` para su envío por lotes.
+- `json_output_to_excel_gpt4.py`: transforma las preguntas generadas (en `batch_output_test_questions_gpt4.jsonl`) a formato Excel estructurado (`questions_gpt4.xlsx`).
+- `benchmark_input_gpt4.py`: crea combinaciones de preguntas y textos (resumidos y expandidos) para construir el benchmark de evaluación (`benchmark_input_answer_gpt4.jsonl`).
+
+
+---
+
+## 🔁 Flujo de trabajo
+
+1. **Generación de preguntas tipo test** a partir del texto original:  
+   `generación_preguntas_test_gpt4.py → batch_input_test_questions_gpt4.jsonl`
+
+2. **Generación de preguntas por GPT-4 Mini (batch de OpenAI)**:  
+   `batch_input_test_questions_gpt4.jsonl → batch_output_test_questions_gpt4.jsonl`
+
+3. **Conversión a Excel** del archivo JSONL con las preguntas:  
+   `json_output_to_excel_gpt4.py → questions_gpt4.xlsx`
+
+4. **Creación del benchmark de evaluación** combinando preguntas y textos:  
+   `benchmark_input_gpt4.py → benchmark_input_answer_gpt4.jsonl`
+
+5. **Evaluación automática de respuestas generadas por GPT-4 (batch de OpenAI)**:  
+   `benchmark_input_answer_gpt4.jsonl → answers_output_gpt4.jsonl`
 
 ---
 
