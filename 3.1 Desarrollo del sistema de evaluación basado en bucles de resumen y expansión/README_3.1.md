@@ -69,8 +69,8 @@ pip install pandas openai groq google-generativeai
 
 ## 📝 Notas
 
-- Los archivos Excel y JSONL generados no están incluidos en este repositorio por su tamaño. Puedes consultarlos y descargarlos desde la carpeta de Google Drive:
-  🔗 [Archivos de resultados](https://drive.google.com/drive/folders/16aFghI1WKmBDqHC1oyrd7UaQJRghRKBW)
+- Los archivos Excel y JSONL generados no están incluidos en este repositorio por su tamaño. Puedes consultarlos y descargarlos desde el depósito en Zenodo:
+  🔗 [Archivos de resultados](https://doi.org/10.5281/zenodo.15714532)
 
 - Reemplaza las claves API en los scripts antes de ejecutar.
 
