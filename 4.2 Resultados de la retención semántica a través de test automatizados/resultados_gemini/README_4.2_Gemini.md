@@ -12,7 +12,7 @@ Los siguientes scripts están incluidos:
 
 ## Archivos de entrada requeridos
 
-Los archivos necesarios para ejecutar los scripts están disponibles en el siguiente enlace de Google Drive:
+Los archivos necesarios para ejecutar los scripts están disponibles en el siguiente enlace de Zenodo:
 
 📁 **[Archivos de entrada (Excel y JSONL)](https://drive.google.com/drive/folders/1bJIm1KqMzbc7emJR3zV-Ix6m8g4Ef4aQ)**
 
