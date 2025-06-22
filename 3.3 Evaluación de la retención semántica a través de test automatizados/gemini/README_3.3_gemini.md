@@ -22,7 +22,7 @@ Esta carpeta contiene los scripts necesarios para evaluar la capacidad del model
 
 Los siguientes ficheros de datos están disponibles en Google Drive y deben ser descargados para ejecutar correctamente los scripts:
 
-📂 [Archivos Gemini (Excel y JSONL)](https://drive.google.com/drive/folders/1ccwOUOaXPn6yKV580AL0S86Pct_RFy9o)
+📂 [Archivos Gemini (Excel y JSONL)](https://doi.org/10.5281/zenodo.15714532)
 
 ## Requisitos
 
