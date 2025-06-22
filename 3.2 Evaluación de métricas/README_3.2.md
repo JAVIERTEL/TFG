@@ -4,7 +4,7 @@ Este módulo implementa un sistema para evaluar cuantitativamente la fidelidad d
 
 ## 📂 Archivos incluidos
 
-- `implementacion_v3.py`: script principal que calcula métricas entre textos (original, resumen, expansión) y guarda los resultados en un Excel.
+- `calculo_metricas.py`: script principal que calcula métricas entre textos (original, resumen, expansión) y guarda los resultados en un Excel.
 - Archivos de datos asociados disponibles en Zenodo:  
   🔗 (https://doi.org/10.5281/zenodo.15714532)
 
