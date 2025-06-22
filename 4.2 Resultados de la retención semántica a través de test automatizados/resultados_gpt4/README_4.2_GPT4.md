@@ -10,9 +10,9 @@ Este directorio forma parte del sistema desarrollado para evaluar la retención 
 
 ## 🗂️ Archivos necesarios (no incluidos en este repositorio)
 
-Los ficheros de entrada y salida se encuentran en el siguiente enlace de Google Drive:
+Los ficheros de entrada y salida se encuentran en el siguiente enlace de Zenodo:
 
-🔗 [Excel y Gráfica – Resultados GPT-4](https://drive.google.com/drive/folders/1bJIm1KqMzbc7emJR3zV-Ix6m8g4Ef4aQ)
+🔗 [Excel y Gráfica – Resultados GPT-4](https://doi.org/10.5281/zenodo.15714532)
 
 
 ## ✍️ Autor
