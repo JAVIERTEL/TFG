@@ -15,7 +15,7 @@ import json
 
 # Archivos de entrada/salida
 texts_file = "textos_gemini.xlsx"  # Archivo Excel con los textos
-questions_file = "preguntas_gemini.xlsx"  # Archivo Excel con las preguntas
+questions_file = "questions_gemini.xlsx"  # Archivo Excel con las preguntas
 output_file = "benchmark_batch_gemini.jsonl"  # Archivo JSONL de salida
 
 # Leer los textos desde el archivo Excel
