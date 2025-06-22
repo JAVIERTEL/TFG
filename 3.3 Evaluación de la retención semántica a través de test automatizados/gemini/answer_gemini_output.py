@@ -21,8 +21,8 @@ from google.api_core.exceptions import ResourceExhausted
 genai.configure(api_key="")  # 🔒 Sustituye con tu clave real
 
 # 2. Ruta de archivos
-input_file = "benchmark_input_gemini.jsonl"
-output_file = "benchmark_output_gemini_answers.jsonl"
+input_file = "answer_input_gemini.jsonl"
+output_file = "answer_gemini_output_.jsonl"
 
 # 3. Modelo a usar
 model = genai.GenerativeModel("gemini-1.5-flash")
