@@ -42,7 +42,7 @@ Evaluar la capacidad de comprensión de **GPT-4 Mini** sobre versiones modificad
 
 Debido al tamaño de los ficheros `.jsonl` y `.xlsx`, estos se han alojado externamente en Google Drive. Puedes acceder a ellos aquí:
 
-📎 [Google Drive - Archivos GPT-4](https://doi.org/10.5281/zenodo.15714532)
+📎 [Zenodo - Archivos GPT-4](https://doi.org/10.5281/zenodo.15714532)
 
 Incluye:
 - `questions_output_1000.xlsx`: preguntas generadas a partir del texto original.
