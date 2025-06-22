@@ -14,8 +14,8 @@ import json
 import pandas as pd
 
 # Ruta del archivo Excel con las preguntas generadas y el archivo de iteraciones para chat-gpt4
-questions_file = "questions_output_1000.xlsx"  # Archivo con las preguntas generadas
-iterations_file = "output_gpt4-mini_1000.xlsx"  # Archivo con las iteraciones para chat-gpt4
+questions_file = "questions_gtp4.xlsx"  # Archivo con las preguntas generadas
+iterations_file = "resultados_bucle_resumen_expansion_gpt4.xlsx"  # Archivo con las iteraciones para chat-gpt4
 
 # Leer las preguntas desde el archivo Excel
 questions_df = pd.read_excel(questions_file)
@@ -43,7 +43,7 @@ for col in required_text_columns:
         raise ValueError(f"El archivo de iteraciones debe contener una columna llamada '{col}'.")
 
 # Nombre del archivo JSONL de salida
-output_file = "benchmark_batch_chat_gpt4_v2.jsonl"
+output_file = "benchmark_input_answer_gpt4.jsonl"
 
 # Abrir el archivo JSONL para escritura
 with open(output_file, "w", encoding="utf-8") as jsonl_file:
