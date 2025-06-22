@@ -5,8 +5,8 @@ Este módulo implementa un sistema para evaluar cuantitativamente la fidelidad d
 ## 📂 Archivos incluidos
 
 - `implementacion_v3.py`: script principal que calcula métricas entre textos (original, resumen, expansión) y guarda los resultados en un Excel.
-- Archivos de datos asociados disponibles en Drive:  
-  🔗 https://drive.google.com/drive/folders/10WGDmhASPoI1lv_OGez5CkUPlyEd-4TA
+- Archivos de datos asociados disponibles en Zenodo:  
+  🔗 (https://doi.org/10.5281/zenodo.15714532)
 
 ## ⚙️ Funcionalidades
 
