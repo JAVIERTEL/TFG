@@ -28,7 +28,7 @@ Evaluar la capacidad de comprensión de **GPT-4 Mini** sobre versiones modificad
    `batch_input_test_questions_gpt4.jsonl → batch_output_test_questions_gpt4.jsonl`
 
 3. **Conversión a Excel** del archivo JSONL con las preguntas:  
-   `json_output_to_excel_gpt4.py → questions_gpt4.xlsx`
+   `json_output_to_excel_gpt4.py → preguntas_gpt4.xlsx`
 
 4. **Creación del benchmark de evaluación** combinando preguntas y textos:  
    `benchmark_input_gpt4.py → benchmark_input_answer_gpt4.jsonl`
