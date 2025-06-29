@@ -13,7 +13,7 @@ import pandas as pd
 import re
 
 # Ruta del archivo de entrada y salida
-input_file = "responses_gemini_answers.jsonl"
+input_file = "anwer_gemini_output.jsonl"
 output_file = "respuestas_gemini_excel.xlsx"
 
 # Lista para almacenar las filas del DataFrame
