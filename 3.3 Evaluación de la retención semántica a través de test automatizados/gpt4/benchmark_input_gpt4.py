@@ -14,7 +14,7 @@ import json
 import pandas as pd
 
 # Ruta del archivo Excel con las preguntas generadas y el archivo de iteraciones para chat-gpt4
-questions_file = "questions_gtp4.xlsx"  # Archivo con las preguntas generadas
+questions_file = "preguntas_gtp4.xlsx"  # Archivo con las preguntas generadas
 iterations_file = "resultados_bucle_resumen_expansion_gpt4.xlsx"  # Archivo con las iteraciones para chat-gpt4
 
 # Leer las preguntas desde el archivo Excel
