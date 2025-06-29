@@ -14,7 +14,7 @@ import pandas as pd
 
 # Archivos de entrada
 file_respuestas = "respuestas_gpt4_excel.xlsx"
-file_correctas = "questions_output_1000.xlsx"
+file_correctas = "preguntas_gpt4.xlsx"
 
 # Leer ambos archivos
 df_respuestas = pd.read_excel(file_respuestas)
