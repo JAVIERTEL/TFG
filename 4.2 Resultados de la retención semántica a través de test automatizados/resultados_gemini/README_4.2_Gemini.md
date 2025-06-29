@@ -14,7 +14,7 @@ Los siguientes scripts están incluidos:
 
 Los archivos necesarios para ejecutar los scripts están disponibles en el siguiente enlace de Zenodo:
 
-📁 **[Archivos de entrada (Excel y JSONL)](https://drive.google.com/drive/folders/1bJIm1KqMzbc7emJR3zV-Ix6m8g4Ef4aQ)**
+📁 **[Archivos de entrada (Excel y JSONL)](https://zenodo.org/records/15723131)**
 
 Asegúrate de colocar los archivos en el mismo directorio donde se ejecutan los scripts o adaptar las rutas de lectura.
 
