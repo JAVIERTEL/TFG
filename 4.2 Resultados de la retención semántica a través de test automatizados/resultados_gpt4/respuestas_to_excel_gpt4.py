@@ -13,7 +13,7 @@ import pandas as pd
 import re
 
 # Ruta del archivo de entrada y salida
-input_file = "benchmark_batch_chat_gpt4_v2-answer.jsonl"
+input_file = "answer_output_gpt4.jsonl"
 output_file = "respuestas_gpt4_excel.xlsx"
 
 # Lista para almacenar las filas del DataFrame
