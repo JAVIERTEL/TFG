@@ -14,7 +14,7 @@ import pandas as pd
 
 # Ruta del archivo JSONL de entrada y el archivo Excel de salida
 input_file = "batch_output_test_questions_gemini.jsonl"
-output_file = "questions_gpt4.xlsx"
+output_file = "preguntas_gpt4.xlsx"
 
 # Lista para almacenar los datos procesados
 data = []
