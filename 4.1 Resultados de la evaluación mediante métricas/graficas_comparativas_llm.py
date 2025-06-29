@@ -129,7 +129,7 @@ def plot_model_comparison_bar_chart(data, models, iterations, metric, output_dir
 if __name__ == "__main__":
     # Lista de archivos y nombres de modelos
     files = [
-        ('output_gpt4-mini_1000_incremental.xlsx', 'GPT-4 Mini'),
+        ('textos_gpt4_stats.xlsx', 'GPT-4 Mini'),
         ('textos_gemini_stats.xlsx', 'gemini-1.5-flash')  # Añade el archivo del segundo modelo
     ]
 
@@ -167,7 +167,7 @@ if __name__ == "__main__":
                     transformed_data,
                     model_name,
                     sheet_name,
-                    output_dir="graficas_finales"
+                    output_dir="graficas"
                 )
             except Exception as e:
                 print(f"Error procesando la hoja {sheet_name}: {e}")
