@@ -13,8 +13,8 @@ import pandas as pd
 import json
 
 # Ruta del archivo de entrada y salida
-input_file = "texts_dailymail_1000.xlsx"  # Archivo con los textos originales de CNN
-output_file = "batch_input_v2.jsonl"  # Archivo de salida en formato JSONL
+input_file = "textos_gemini.xlsx"  # Archivo con los textos originales de CNN
+output_file = " batch_input_test_questions_gpt4.jsonl"  # Archivo de salida en formato JSONL
 
 # Leer los textos originales desde el archivo Excel
 df = pd.read_excel(input_file)
