@@ -121,7 +121,7 @@ def read_texts_from_excel(filename, start_row):
 if __name__ == "__main__":
     # Leer textos desde el archivo Excel (todos los textos a partir de la fila especificada)
     start_row = 0  # Empezar desde la primera fila
-    texts = read_texts_from_excel('texts_dailymail.xlsx', start_row=start_row)
+    texts = read_texts_from_excel('textos_gpt4.xlsx', start_row=start_row)
     print(f"Se han cargado {len(texts)} textos desde el archivo Excel.")
 
     # Configuración del modelo y parámetros
@@ -130,7 +130,7 @@ if __name__ == "__main__":
     model = "gpt-4o-mini-2024-07-18"
 
     # Nombre del archivo de salida
-    output_file = 'output_gpt4-mini.xlsx'
+    output_file = 'resultados_bucle_resumen_expansion_gpt4.xlsx'
 
     # Asegurarse de que el archivo Excel exista
     ensure_excel_file_exists(output_file)
