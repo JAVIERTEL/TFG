@@ -15,7 +15,7 @@ import pandas as pd
 
 # Archivos de entrada
 file_respuestas = "respuestas_gemini_excel.xlsx"
-file_correctas = "preguntas_gemini_transformado.xlsx"
+file_correctas = "resultados_gemini.xlsx"
 
 # Leer ambos archivos
 df_respuestas = pd.read_excel(file_respuestas)
