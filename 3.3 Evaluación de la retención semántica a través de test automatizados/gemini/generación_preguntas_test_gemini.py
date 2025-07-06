@@ -23,7 +23,7 @@ model = genai.GenerativeModel(model_name)
 
 # Parámetros
 input_file = "textos_gemini.xlsx"
-output_file = " output_test_questions_gemini.jsonl"
+output_file = "output_test_questions_gemini.jsonl"
 start_row = 0  # Cambiado a 0 para no omitir filas importantes
 limit = 300
 REQUESTS_PER_MINUTE = 15
