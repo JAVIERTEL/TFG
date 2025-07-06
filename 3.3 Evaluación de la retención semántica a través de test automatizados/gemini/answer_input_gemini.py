@@ -15,8 +15,8 @@ import json
 
 # Archivos de entrada/salida
 texts_file = "textos_gemini.xlsx"  # Archivo Excel con los textos
-questions_file = "questions_gemini.xlsx"  # Archivo Excel con las preguntas
-output_file = "ananswer_input_gemini.jsonl"  # Archivo JSONL de salida
+questions_file = "preguntas_gemini.xlsx"  # Archivo Excel con las preguntas
+output_file = "answer_input_gemini.jsonl"  # Archivo JSONL de salida
 
 # Leer los textos desde el archivo Excel
 texts_df = pd.read_excel(texts_file)
